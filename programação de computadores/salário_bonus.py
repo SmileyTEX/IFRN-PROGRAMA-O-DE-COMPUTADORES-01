@@ -1,0 +1,6 @@
+nome=input()
+salario=float(input())
+vendas=float(input())
+bonus= (salario+ (vendas*0.15))
+print(nome)
+print("R$","{:.2f}".format(bonus))

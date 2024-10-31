@@ -1,3 +1,3 @@
-N,X=map(float,input().split())
-nota=N-X
-print("{:100f}".format(nota))
+NotaM,NotaT=map(float,input().split())
+nota=(NotaT/NotaM)*100
+print(int(nota))
